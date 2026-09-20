@@ -1,0 +1,3 @@
+Help design an algorithm for correctly and safely dividing an array into N equal parts for N threads. Explain how the main thread should wait for all child threads to complete their work and which synchronization mechanism would be best to safely add the intermediate sums to the total result without causing a race condition.
+
+Propose two alternative multithreaded implementations for calculating the sum of the same array using higher-level tools or abstractions (e.g., Thread Pool / ExecutorService, ForkJoinPool, parallel streams, Task/async, etc.). Add execution time measurements for each new implementation as well.
