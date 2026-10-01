@@ -1,5 +1,3 @@
-"""Parallel and sequential array sum implementations."""
-
 from __future__ import annotations
 
 import threading
@@ -61,7 +59,6 @@ def sum_with_executor(array: np.ndarray, parts: int) -> int:
 
 
 def sum_with_processes(shm_name: str, size: int, parts: int) -> int:
-    """Sum via ProcessPoolExecutor over an existing SharedMemory buffer."""
     with ProcessPoolExecutor(
         max_workers=parts,
         initializer=_init_process_worker,

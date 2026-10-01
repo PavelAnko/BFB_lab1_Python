@@ -1,5 +1,3 @@
-"""Entry point: build a large array, benchmark sum implementations, write RESULTS.md."""
-
 from __future__ import annotations
 
 import os

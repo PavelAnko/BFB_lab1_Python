@@ -1,5 +1,3 @@
-"""Benchmark helpers and RESULTS.md report writer."""
-
 from __future__ import annotations
 
 import time
